@@ -2,8 +2,8 @@
   <div>
     <b-tabs content-class="mt-3" justified>
       <b-tab title="Blockchain" active> <BLOCKCHAIN /> </b-tab>
-      <b-tab title="Web Dev"> <ML /> </b-tab>
-      <b-tab title="Machine Learning"> <WEBDEV /> </b-tab>
+      <b-tab title="Web Dev"> <WEBDEV /> </b-tab>
+      <b-tab title="Machine Learning"> <ML /> </b-tab>
     </b-tabs>
   </div>
 </template>

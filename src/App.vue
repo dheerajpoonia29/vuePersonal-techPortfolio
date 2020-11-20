@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     
-    <b-container>
+    <b-container fluid>
       <b-row>
         <b-col md="3" xl="3" id="SIDE_BAR"> <SIDE_BAR /> </b-col>
         <b-col md="9" xl="9" id="CONTENT_PANEL"> <CONTENT_PANEL /> </b-col>
