@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     
-    <b-container fluid>
-      <b-row>
-        <b-col md="3" xl="3" id="SIDE_BAR"> <SIDE_BAR /> </b-col>
-        <b-col md="9" xl="9" id="CONTENT_PANEL"> <CONTENT_PANEL /> </b-col>
+    <b-container>
+      <b-row id="MAIN">
+        <b-col md="3" xl="3"> <SIDE_BAR /> </b-col>
+        <b-col md="9" xl="9"> <CONTENT_PANEL /> </b-col>
       </b-row>
     </b-container>
 
@@ -29,15 +29,11 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  /*  */
   margin-top: 60px;
 }
 
-#SIDE_BAR {
-  text-align: center;
-}
-
-#CONTENT_PANEL {
-  text-align: center;
+#MAIN{    
+  /* background: rgb(58, 58, 58) */
 }
 </style>
